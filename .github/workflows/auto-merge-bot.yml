@@ -16,7 +16,7 @@ jobs:
         uses: ethereum/EIP-Bot@16ab13b9d6ce0ba7404afc4a75f2da9e3db69dbb # master
         id: auto-merge-bot
         with:
-          GITHUB-TOKEN: ${{ secrets.TOKEN }} 
+          GITHUB-TOKEN: ${{ secrets.GITHUB_TOKEN }} 
           CORE_EDITORS: "@MicahZoltu,@lightclient,@axic,@gcolvin,@SamWilsn,@Pandapip1"
           ERC_EDITORS: "@lightclient,@axic,@SamWilsn,@Pandapip1"
           NETWORKING_EDITORS: "@MicahZoltu,@lightclient,@axic,@SamWilsn"
